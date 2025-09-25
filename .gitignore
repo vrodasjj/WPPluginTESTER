@@ -1,0 +1,106 @@
+# WordPress Plugin Manager - .gitignore
+# Release 1.0
+
+# Configuration files with sensitive data
+config.json
+config_*.json
+*.config
+
+# SSH Keys and certificates
+*.pem
+*.key
+*.crt
+*.p12
+id_rsa*
+known_hosts
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Test files and coverage
+.coverage
+.pytest_cache/
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Backup files
+*.bak
+*.backup
+*.old
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# WordPress specific
+wp-config.php
+.htaccess
+
+# Development and testing
+test_*.py
+debug_*.py
+experimental/
+sandbox/
+
+# Documentation builds
+docs/_build/
+site/
+
+# Personal notes
+notes.txt
+todo.txt
+personal/

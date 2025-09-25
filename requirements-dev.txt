@@ -1,0 +1,13 @@
+# Dependencias principales
+paramiko>=4.0.0
+requests>=2.25.0
+
+# Herramientas de desarrollo
+pylint>=2.15.0
+black>=22.0.0
+mypy>=0.991
+flake8>=5.0.0
+
+# Herramientas de testing
+pytest>=7.0.0
+pytest-cov>=4.0.0

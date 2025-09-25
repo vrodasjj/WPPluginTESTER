@@ -1,0 +1,23 @@
+{
+    "ssh": {
+        "host": "tu-servidor.com",
+        "port": 22,
+        "username": "tu-usuario",
+        "password": "tu-contraseña",
+        "key_filename": "",
+        "timeout": 30
+    },
+    "wordpress": {
+        "path": "/ruta/a/tu/wordpress",
+        "url": "https://tu-sitio-web.com",
+        "wp_cli_path": "/usr/local/bin/wp"
+    },
+    "general": {
+        "scan_timeout": 60,
+        "command_timeout": 45,
+        "max_retries": 3,
+        "debug_mode": false,
+        "auto_backup": true,
+        "progress_update_interval": 3
+    }
+}

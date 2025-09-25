@@ -1,0 +1,26 @@
+{
+    "pythonVersion": "3.10",
+    "pythonPlatform": "Windows",
+    "extraPaths": [
+        "C:\\Users\\juanjo.NOEBEAUTYC\\AppData\\Roaming\\Python\\Python310\\site-packages",
+        "C:\\Program Files\\Python310\\lib\\site-packages",
+        "C:\\Program Files\\Python310",
+        "."
+    ],
+    "include": [
+        "."
+    ],
+    "exclude": [
+        "**/__pycache__",
+        "**/.git"
+    ],
+    "reportMissingImports": false,
+    "reportMissingTypeStubs": false,
+    "reportImportCycles": false,
+    "reportUnusedImport": "warning",
+    "reportUnusedVariable": "warning",
+    "typeCheckingMode": "basic",
+    "useLibraryCodeForTypes": true,
+    "autoSearchPaths": true,
+    "stubPath": ""
+}
