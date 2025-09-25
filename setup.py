@@ -14,8 +14,8 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="wp-plugin-manager",
     version="1.0.0",
-    author="WordPress Plugin Manager",
-    author_email="",
+    author="vrodasjj",
+    author_email="vrodasjj@gmail.com",
     description="Aplicación para gestionar plugins de WordPress de forma automatizada y segura via SSH",
     long_description=long_description,
     long_description_content_type="text/markdown",

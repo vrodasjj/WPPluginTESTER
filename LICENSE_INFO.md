@@ -32,7 +32,7 @@ NO puedes usar el nombre "WordPress Plugin Manager" o los nombres de los contrib
 
 ```
 Basado en WordPress Plugin Manager
-Copyright (c) 2025, WordPress Plugin Manager
+Copyright (c) 2025, vrodasjj
 Licenciado bajo BSD 3-Clause License
 ```
 
