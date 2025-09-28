@@ -1521,62 +1521,116 @@ class WordPressPluginManager:
             "6. Usa los botones de acción para activar, desactivar o probar plugins"
         ])
         
-        # Sección: Características Principales
-        self.create_help_section_grid(help_scrollable_frame, 1, "✨ Características Principales", [
-            "🔲 Selección múltiple de plugins con checkboxes",
-            "⚡ Operaciones en lote (activar/desactivar múltiples plugins)",
-            "🧪 Testing automatizado con rollback de seguridad",
+        # Sección: Características Principales v2.0
+        self.create_help_section_grid(help_scrollable_frame, 1, "✨ Características Principales v2.0", [
+            "🔲 Selección múltiple de plugins con checkboxes inteligentes",
+            "⚡ Operaciones en lote optimizadas (activar/desactivar múltiples plugins)",
+            "🧪 Testing automatizado con rollback de seguridad mejorado",
             "📊 Monitoreo de salud del sitio web en tiempo real",
-            "📝 Análisis de logs de WordPress con filtrado",
-            "🔄 Actualización masiva de plugins",
-            "🗑️ Desinstalación segura con verificaciones"
+            "📝 Análisis avanzado de logs de WordPress con filtrado",
+            "🔄 Actualización masiva de plugins con verificaciones",
+            "🗑️ Desinstalación segura con verificaciones de dependencias",
+            "🛡️ Sistema de seguridad mejorado con validaciones",
+            "💾 Backup automático antes de operaciones críticas",
+            "🔧 Configuración simplificada y auto-detección de rutas"
+        ])
+        
+        # Sección: Características de Seguridad v2.0
+        self.create_help_section_grid(help_scrollable_frame, 2, "🛡️ Características de Seguridad v2.0", [
+            "🔒 Validación de credenciales SSH mejorada",
+            "🔍 Verificación de integridad antes de operaciones",
+            "💾 Backup automático antes de cambios críticos",
+            "🔄 Rollback inteligente en caso de errores",
+            "⚠️ Alertas de seguridad para operaciones riesgosas",
+            "🧪 Testing de seguridad antes de activar plugins",
+            "📊 Monitoreo continuo de salud del sitio",
+            "🚫 Prevención de operaciones en sitios comprometidos",
+            "🔐 Manejo seguro de credenciales y configuraciones",
+            "📝 Logging detallado de todas las operaciones"
         ])
         
         # Sección: Gestión de Plugins
-        self.create_help_section_grid(help_scrollable_frame, 2, "🔌 Gestión de Plugins", [
-            "• Escanear Plugins: Detecta todos los plugins instalados",
+        self.create_help_section_grid(help_scrollable_frame, 3, "🔌 Gestión de Plugins", [
+            "• Escanear Plugins: Detecta automáticamente todos los plugins instalados",
             "• Seleccionar Todo: Marca/desmarca todos los plugins de una vez",
-            "• Contador Dinámico: Muestra cuántos plugins están seleccionados",
-            "• Activar Seleccionados: Activa todos los plugins marcados",
-            "• Desactivar Seleccionados: Desactiva los plugins seleccionados",
-            "• Probar Seleccionados: Ejecuta tests en los plugins marcados",
-            "• Actualizar Seleccionados: Actualiza múltiples plugins a la vez"
+            "• Contador Dinámico: Muestra en tiempo real cuántos plugins están seleccionados",
+            "• Activar Seleccionados: Activa todos los plugins marcados con verificaciones",
+            "• Desactivar Seleccionados: Desactiva los plugins seleccionados de forma segura",
+            "• Probar Seleccionados: Ejecuta tests automatizados en los plugins marcados",
+            "• Actualizar Seleccionados: Actualiza múltiples plugins con backup automático",
+            "• Desinstalar Seleccionados: Elimina plugins con verificación de dependencias",
+            "• Auto-detección de rutas: Encuentra automáticamente la instalación de WordPress"
         ])
         
         # Sección: Testing Automatizado
-        self.create_help_section_grid(help_scrollable_frame, 3, "🧪 Testing Automatizado", [
-            "• Test Individual: Prueba un plugin específico",
-            "• Test en Lote: Prueba múltiples plugins seleccionados",
+        self.create_help_section_grid(help_scrollable_frame, 4, "🧪 Testing Automatizado", [
+            "• Test Individual: Prueba un plugin específico con verificaciones completas",
+            "• Test en Lote: Prueba múltiples plugins seleccionados de forma secuencial",
             "• Verificación de Salud: Comprueba que el sitio funcione correctamente",
-            "• Rollback Automático: Revierte cambios si se detectan errores",
-            "• Reportes Detallados: Muestra resultados completos de las pruebas",
-            "• Timeouts Configurables: Evita bloqueos en operaciones largas"
+            "• Rollback Automático: Revierte cambios automáticamente si se detectan errores",
+            "• Reportes Detallados: Muestra resultados completos con logs de errores",
+            "• Timeouts Configurables: Evita bloqueos en operaciones largas",
+            "• Testing de Seguridad: Verifica que los plugins no comprometan el sitio",
+            "• Monitoreo en Tiempo Real: Supervisa el estado del sitio durante las pruebas"
+        ])
+        
+        # Sección: Backup y Rollback
+        self.create_help_section_grid(help_scrollable_frame, 5, "💾 Backup y Rollback", [
+            "• Backup Automático: Crea respaldos antes de operaciones críticas",
+            "• Backup Manual: Permite crear respaldos cuando sea necesario",
+            "• Rollback Inteligente: Restaura el estado anterior en caso de problemas",
+            "• Verificación de Integridad: Comprueba que los backups sean válidos",
+            "• Gestión de Backups: Lista y administra todos los respaldos creados",
+            "• Restauración Selectiva: Permite restaurar plugins específicos",
+            "• Limpieza Automática: Elimina backups antiguos para ahorrar espacio",
+            "• Notificaciones: Informa sobre el estado de backups y restauraciones"
+        ])
+        
+        # Sección: Configuración v2.0
+        self.create_help_section_grid(help_scrollable_frame, 7, "⚙️ Configuración v2.0", [
+            "🔧 Auto-detección de WordPress: Encuentra automáticamente la instalación",
+            "📁 Configuración de rutas: Establece rutas personalizadas si es necesario",
+            "⏱️ Timeouts configurables: Ajusta tiempos de espera según tu servidor",
+            "🔒 Gestión de credenciales: Guarda de forma segura datos de conexión",
+            "📊 Configuración de logs: Personaliza el nivel de detalle en logs",
+            "🛡️ Configuración de seguridad: Ajusta niveles de verificación",
+            "💾 Configuración de backups: Establece políticas de respaldo automático",
+            "🔔 Configuración de alertas: Personaliza notificaciones y advertencias"
         ])
         
         # Sección: Consejos y Mejores Prácticas
-        self.create_help_section_grid(help_scrollable_frame, 4, "💡 Consejos y Mejores Prácticas", [
-            "⚠️ Siempre haz backup antes de operaciones masivas",
+        self.create_help_section_grid(help_scrollable_frame, 8, "💡 Consejos y Mejores Prácticas v2.0", [
+            "⚠️ Siempre haz backup antes de operaciones masivas (ahora automático)",
             "🔍 Usa el testing automatizado antes de activar plugins en producción",
             "📊 Revisa los logs regularmente para detectar problemas",
             "🔄 Mantén los plugins actualizados para seguridad",
             "🎯 Usa la selección múltiple para operaciones eficientes",
             "⏱️ Configura timeouts apropiados para tu servidor",
-            "🛡️ Verifica la salud del sitio después de cambios importantes"
+            "🛡️ Verifica la salud del sitio después de cambios importantes",
+            "💾 Aprovecha el sistema de backup automático para mayor seguridad",
+            "🔒 Utiliza las nuevas validaciones de seguridad",
+            "🚀 Usa la auto-detección para configuración más rápida"
         ])
         
         # Sección: Solución de Problemas
-        self.create_help_section_grid(help_scrollable_frame, 5, "🔧 Solución de Problemas", [
+        self.create_help_section_grid(help_scrollable_frame, 9, "🔧 Solución de Problemas v2.0", [
             "❌ Error de conexión SSH: Verifica credenciales y conectividad",
             "⚠️ WP-CLI no encontrado: Instala WP-CLI o usa método tradicional",
             "🐌 Operaciones lentas: Ajusta timeouts en configuración",
             "🚫 Permisos denegados: Verifica permisos de archivos en el servidor",
             "💥 Error 500: Revisa logs de debug y desactiva plugins problemáticos",
-            "🔄 Sitio no responde: Usa rollback automático para revertir cambios"
+            "🔄 Sitio no responde: Usa rollback automático para revertir cambios",
+            "💾 Error en backup: Verifica espacio en disco y permisos",
+            "🔒 Fallo de validación: Revisa configuración de seguridad",
+            "🔍 Auto-detección falla: Configura rutas manualmente",
+            "📊 Logs no se cargan: Verifica permisos del archivo debug.log",
+            "🧪 Testing falla: Comprueba conectividad y estado del sitio",
+            "⚡ Operaciones en lote fallan: Reduce número de plugins seleccionados"
         ])
         
         # Pie de página
         footer_frame = ttk.Frame(help_scrollable_frame)
-        footer_frame.grid(row=6, column=0, sticky="ew", padx=20, pady=20)
+        footer_frame.grid(row=10, column=0, sticky="ew", padx=20, pady=20)
         
         footer_label = ttk.Label(footer_frame, 
                                text="Para más información, consulta la documentación completa en GitHub",
