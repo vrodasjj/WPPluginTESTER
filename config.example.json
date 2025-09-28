@@ -1,15 +1,15 @@
 {
     "ssh": {
-        "host": "tu-servidor.com",
+        "host": "your-server.example.com",
         "port": 22,
-        "username": "tu-usuario",
-        "password": "tu-contraseña",
-        "key_filename": "",
+        "username": "your-username",
+        "password": "your-secure-password",
+        "key_filename": "/path/to/your/ssh/key",
         "timeout": 30
     },
     "wordpress": {
-        "path": "/ruta/a/tu/wordpress",
-        "url": "https://tu-sitio-web.com",
+        "path": "/var/www/html/wordpress",
+        "url": "https://your-wordpress-site.com",
         "wp_cli_path": "/usr/local/bin/wp"
     },
     "general": {

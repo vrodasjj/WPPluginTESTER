@@ -2,7 +2,7 @@
     "pythonVersion": "3.10",
     "pythonPlatform": "Windows",
     "extraPaths": [
-        "C:\\Users\\juanjo.NOEBEAUTYC\\AppData\\Roaming\\Python\\Python310\\site-packages",
+        "C:\\Users\\YourUser\\AppData\\Roaming\\Python\\Python310\\site-packages",
         "C:\\Program Files\\Python310\\lib\\site-packages",
         "C:\\Program Files\\Python310",
         "."

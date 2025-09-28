@@ -39,7 +39,7 @@ disable=import-error,no-member,unused-import,unused-variable
     "pythonVersion": "3.10",
     "pythonPlatform": "Windows",
     "extraPaths": [
-        "c:\\users\\juanjo.noebeautyc\\appdata\\roaming\\python\\python310\\site-packages"
+        "c:\\users\\youruser\\appdata\\roaming\\python\\python310\\site-packages"
     ]
 }
 ```
@@ -48,7 +48,7 @@ disable=import-error,no-member,unused-import,unused-variable
 ```json
 {
     "python.analysis.extraPaths": [
-        "c:\\users\\juanjo.noebeautyc\\appdata\\roaming\\python\\python310\\site-packages"
+        "c:\\users\\youruser\\appdata\\roaming\\python\\python310\\site-packages"
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.pylintArgs": ["--rcfile=.pylintrc"]

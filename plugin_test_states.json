@@ -1,0 +1,584 @@
+{
+  "add-to-any": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.8.13",
+    "directory": "N/A"
+  },
+  "advanced-coupons-for-woocommerce-free": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.6.8",
+    "directory": "N/A"
+  },
+  "advanced-dynamic-pricing-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.10.1",
+    "directory": "N/A"
+  },
+  "advanced-tabbed-categories": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.1.2",
+    "directory": "N/A"
+  },
+  "animaciones-estacionales_1.8.0": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.8.0",
+    "directory": "N/A"
+  },
+  "back-in-stock-notifier-for-woocommerce": {
+    "test_status": "warning",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "6.1.2",
+    "directory": "N/A"
+  },
+  "blocksy-companion": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.1.14",
+    "directory": "N/A"
+  },
+  "woo-save-abandoned-carts": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "8.8",
+    "directory": "N/A"
+  },
+  "cecabank-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "0.3.4",
+    "directory": "N/A"
+  },
+  "cedcommerce-connector-for-tiktok-shop": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.0.1",
+    "directory": "N/A"
+  },
+  "chat-me-now": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.0.2",
+    "directory": "N/A"
+  },
+  "clima_decoraciones_dinamicas_1.8.0": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.8.0",
+    "directory": "N/A"
+  },
+  "code-snippets": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.7.0",
+    "directory": "N/A"
+  },
+  "conditional-shipping-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.5.0",
+    "directory": "N/A"
+  },
+  "cookie-law-info": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.3.5",
+    "directory": "N/A"
+  },
+  "correosoficial": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.8.4",
+    "directory": "N/A"
+  },
+  "deposits-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.3.7",
+    "directory": "N/A"
+  },
+  "ewww-image-optimizer": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "8.2.1",
+    "directory": "N/A"
+  },
+  "users-customers-import-export-for-wp-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.6.6",
+    "directory": "N/A"
+  },
+  "facebook-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.5.8",
+    "directory": "N/A"
+  },
+  "first-order-discount-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.23",
+    "directory": "N/A"
+  },
+  "free-shipping-label": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.4.1",
+    "directory": "N/A"
+  },
+  "woocommerce-gift-wrapper": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "6.31",
+    "directory": "N/A"
+  },
+  "woocommerce-google-analytics-integration": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.1.17",
+    "directory": "N/A"
+  },
+  "google-listings-and-ads": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.4.3",
+    "directory": "N/A"
+  },
+  "old_gratisfaction-all-in-one-loyalty-contests-referral-program-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.5.1",
+    "directory": "N/A"
+  },
+  "duracelltomi-google-tag-manager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.22.1",
+    "directory": "N/A"
+  },
+  "hotjar": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.0.16",
+    "directory": "N/A"
+  },
+  "image-regenerate-select-crop": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "8.1.2",
+    "directory": "N/A"
+  },
+  "independent-analytics": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.12.2",
+    "directory": "N/A"
+  },
+  "jetpack": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "15.0.2",
+    "directory": "N/A"
+  },
+  "jetpack-boost": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.4.0",
+    "directory": "N/A"
+  },
+  "zero-bs-crm": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "6.6.1",
+    "directory": "N/A"
+  },
+  "jetpack-protect": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.3.0",
+    "directory": "N/A"
+  },
+  "local-google-fonts": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "0.24.0",
+    "directory": "N/A"
+  },
+  "mailpoet": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "5.15.0",
+    "directory": "N/A"
+  },
+  "ionos-marketplace": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.3.0",
+    "directory": "N/A"
+  },
+  "media-cleaner": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "6.9.5",
+    "directory": "N/A"
+  },
+  "microsoft-clarity": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "0.10.7",
+    "directory": "N/A"
+  },
+  "nextend-facebook-connect": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.1.19",
+    "directory": "N/A"
+  },
+  "notificationx": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.1.4",
+    "directory": "N/A"
+  },
+  "order-import-export-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.6.4",
+    "directory": "N/A"
+  },
+  "old_woocommerce-pdf-invoices-packing-slips": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "4.7.0",
+    "directory": "N/A"
+  },
+  "ionos-performance": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "3.0.2",
+    "directory": "N/A"
+  },
+  "popup-maker": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.21.4",
+    "directory": "N/A"
+  },
+  "woo-permalink-manager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.3.11",
+    "directory": "N/A"
+  },
+  "woo-product-feed-pro": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "13.4.6",
+    "directory": "N/A"
+  },
+  "product-import-export-for-woo": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.5.6",
+    "directory": "N/A"
+  },
+  "product-variation-swatches-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "2.4.1",
+    "directory": "N/A"
+  },
+  "seo-by-rank-math": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.288472",
+    "version": "1.0.253",
+    "directory": "N/A"
+  },
+  "regenerate-thumbnails": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.1.6",
+    "directory": "N/A"
+  },
+  "sales-booster": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.0.2",
+    "directory": "N/A"
+  },
+  "ionos-security": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.5.7",
+    "directory": "N/A"
+  },
+  "sendago-for-woocommerce-1.0.0": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.0.0",
+    "directory": "N/A"
+  },
+  "sender-net-automated-emails": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.9.15",
+    "directory": "N/A"
+  },
+  "wt-woocommerce-sequential-order-numbers": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.7.3",
+    "directory": "N/A"
+  },
+  "custom-css-js": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.51",
+    "directory": "N/A"
+  },
+  "simple-history": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "5.16.0",
+    "directory": "N/A"
+  },
+  "ionos-sso": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.2.4",
+    "directory": "N/A"
+  },
+  "statify": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.8.5",
+    "directory": "N/A"
+  },
+  "old_woocommerce-stock-manager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.4.0",
+    "directory": "N/A"
+  },
+  "super-socializer": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "7.14.4",
+    "directory": "N/A"
+  },
+  "theme-switcha": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.4.1",
+    "directory": "N/A"
+  },
+  "woo-variation-swatches": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.2.1",
+    "directory": "N/A"
+  },
+  "visitors-traffic-real-time-statistics": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "8.3",
+    "directory": "N/A"
+  },
+  "woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "10.2.1",
+    "directory": "N/A"
+  },
+  "woo-update-manager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.0.3",
+    "directory": "N/A"
+  },
+  "advanced-product-labels-for-woocommerce": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.2.9.2",
+    "directory": "N/A"
+  },
+  "woocommerce-bulk-discount": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.0",
+    "directory": "N/A"
+  },
+  "woo-cart-abandonment-recovery": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.0.0",
+    "directory": "N/A"
+  },
+  "woo-category-stickers": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.0.1",
+    "directory": "N/A"
+  },
+  "woo-custom-product-addons": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.0.17",
+    "directory": "N/A"
+  },
+  "woocommerce-legacy-rest-api": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.0.5",
+    "directory": "N/A"
+  },
+  "woocommerce-paypal-payments": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.1.0",
+    "directory": "N/A"
+  },
+  "woo-redsys-gateway-light": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "6.5.0",
+    "directory": "N/A"
+  },
+  "woocommerce-shipping": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.8.8",
+    "directory": "N/A"
+  },
+  "woocommerce-services": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.1.0",
+    "directory": "N/A"
+  },
+  "woocommerce-payments": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "10.0.0",
+    "directory": "N/A"
+  },
+  "blogvault-real-time-backup": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "6.02",
+    "directory": "N/A"
+  },
+  "wp-dbmanager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.80.10",
+    "directory": "N/A"
+  },
+  "wp-optimize": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "4.3.0",
+    "directory": "N/A"
+  },
+  "wp-2fa": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.0.0",
+    "directory": "N/A"
+  },
+  "insert-headers-and-footers": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.3.0",
+    "directory": "N/A"
+  },
+  "wp-consent-api": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.0.8",
+    "directory": "N/A"
+  },
+  "wp-crontrol": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.19.2",
+    "directory": "N/A"
+  },
+  "wp-file-manager": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "8.0.2",
+    "directory": "N/A"
+  },
+  "wpforms-lite": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "1.9.8.1",
+    "directory": "N/A"
+  },
+  "woocommerce-menu-bar-cart": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.14.12",
+    "directory": "N/A"
+  },
+  "woocommerce-multilingual": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "5.5.1.1",
+    "directory": "N/A"
+  },
+  "wp-statistics": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "14.15.5",
+    "directory": "N/A"
+  },
+  "wptelegram": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "4.2.11",
+    "directory": "N/A"
+  },
+  "wpvivid-backuprestore": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "0.9.119",
+    "directory": "N/A"
+  },
+  "yith-woocommerce-badges-management": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "3.19.0",
+    "directory": "N/A"
+  },
+  "yith-woocommerce-product-add-ons": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "4.24.0",
+    "directory": "N/A"
+  },
+  "yith-woocommerce-product-bundles": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.19.0",
+    "directory": "N/A"
+  },
+  "yith-woocommerce-quick-view": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "2.8.0",
+    "directory": "N/A"
+  },
+  "yith-woocommerce-wishlist": {
+    "test_status": "untested",
+    "last_updated": "2025-09-26T19:08:21.289480",
+    "version": "4.9.0",
+    "directory": "N/A"
+  }
+}

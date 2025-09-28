@@ -24,6 +24,10 @@ class WPCLIManager:
         self.execute_ssh_command = ssh_executor
         self.wp_path = wp_path
         self.wp_cli_available = None
+        # Cache para evitar verificaciones repetitivas
+        self._wp_cli_check_cache = None
+        self._wp_cli_check_time = 0
+        self._cache_duration = 300  # 5 minutos de cache
         
     def check_wp_cli_availability(self) -> bool:
         """
@@ -32,6 +36,13 @@ class WPCLIManager:
         Returns:
             bool: True si WP-CLI está disponible y funciona correctamente
         """
+        # Verificar cache primero
+        current_time = time.time()
+        if (self._wp_cli_check_cache is not None and 
+            current_time - self._wp_cli_check_time < self._cache_duration):
+            print(f"DEBUG: Usando cache de WP-CLI: {self._wp_cli_check_cache}")
+            return self._wp_cli_check_cache
+        
         print("DEBUG: Iniciando verificación de WP-CLI...")
         
         try:
@@ -60,19 +71,31 @@ class WPCLIManager:
                 if version_result and not any(error in version_result.lower() for error in ['error', 'warning', 'not found', 'permission denied']):
                     print("DEBUG: WP-CLI funciona correctamente")
                     self.wp_cli_available = True
+                    # Guardar en cache
+                    self._wp_cli_check_cache = True
+                    self._wp_cli_check_time = time.time()
                     return True
                 else:
                     print(f"DEBUG: WP-CLI no funciona correctamente. Errores detectados en: {version_result}")
                     self.wp_cli_available = False
+                    # Guardar en cache
+                    self._wp_cli_check_cache = False
+                    self._wp_cli_check_time = time.time()
                     return False
             except Exception as e:
                 print(f"DEBUG: Excepción al verificar funcionalidad de WP-CLI: {e}")
                 self.wp_cli_available = False
+                # Guardar en cache
+                self._wp_cli_check_cache = False
+                self._wp_cli_check_time = time.time()
                 return False
                 
         except Exception as e:
             print(f"DEBUG: Excepción general en check_wp_cli_availability: {e}")
             self.wp_cli_available = False
+            # Guardar en cache
+            self._wp_cli_check_cache = False
+            self._wp_cli_check_time = time.time()
             return False
     
     def get_wordpress_info(self) -> Dict[str, str]:
@@ -536,7 +559,19 @@ class WPCLIManager:
             start_time = time.time()
             try:
                 print(f"DEBUG: Verificando URL: {url}")
-                response = requests.get(url, timeout=30, allow_redirects=True, verify=False)
+                
+                # Headers para simular un navegador real y evitar bloqueos del servidor
+                headers = {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+                    'Accept-Language': 'es-ES,es;q=0.9,en;q=0.8',
+                    'Accept-Encoding': 'gzip, deflate, br',
+                    'DNT': '1',
+                    'Connection': 'keep-alive',
+                    'Upgrade-Insecure-Requests': '1',
+                }
+                
+                response = requests.get(url, timeout=30, allow_redirects=True, verify=False, headers=headers)
                 response_time = time.time() - start_time
                 
                 print(f"DEBUG: Status code: {response.status_code}, Response time: {response_time}")
