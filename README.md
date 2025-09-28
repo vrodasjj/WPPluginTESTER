@@ -1,33 +1,50 @@
 # WordPress Plugin Manager
 
-## 🎉 Release 1.0 - Versión Estable
+## 🎉 Release 2.0 - Sistema Completo de Análisis de Logs
 
-Una aplicación de escritorio profesional para gestionar plugins de WordPress de forma segura a través de conexión SSH. La aplicación permite conectarse a un servidor web, revisar logs de debug, listar plugins instalados y activarlos de forma automatizada con verificación de salud del sitio.
+Una aplicación de escritorio profesional para gestionar plugins de WordPress de forma segura a través de conexión SSH. La aplicación permite conectarse a un servidor web, revisar logs de debug, listar plugins instalados y gestionarlos de forma individual o en lote con verificación de salud del sitio.
+
+### ✨ Novedades en v2.0
+- **Sistema completo de análisis de logs** con LogManager inteligente
+- **Recomendaciones automáticas** basadas en análisis de errores
+- **Detección de plugins afectados** por problemas específicos
+- **Contadores detallados** por tipo de mensaje (errores, warnings, fatales, info)
+- **Rangos de tiempo inteligentes** para análisis temporal
+- **Corrección crítica** del error AttributeError en LogAnalysis
 
 ## 🚀 Características Principales
 
 ### 🔌 Gestión Avanzada de Plugins
 - **Escaneo automático** con WP-CLI y fallback tradicional
-- **Activación/Desactivación segura** con verificación de salud
-- **Actualización individual** de plugins
+- **Selección múltiple** con checkboxes para operaciones en lote
+- **Activación/Desactivación** individual y masiva con verificación de salud
+- **Actualización** individual y en lote de plugins
 - **Instalación** desde el repositorio oficial
 - **Desinstalación completa** con limpieza
-- **Testing individual y masivo** de plugins
+- **Testing individual y masivo** de plugins seleccionados
 
-### 🔍 Monitoreo y Diagnóstico
+### 🔍 Monitoreo y Diagnóstico Avanzado
 - **Verificación de salud** del sitio web en tiempo real
 - **Detección automática** de errores 500 y problemas críticos
-- **Análisis de logs** de WordPress con filtrado inteligente
+- **Sistema completo de análisis de logs** con LogManager inteligente
+  - **Contadores detallados**: Errores, warnings, fatales e información
+  - **Detección de plugins afectados**: Identifica plugins problemáticos
+  - **Recomendaciones automáticas**: Sugerencias basadas en análisis
+  - **Rangos de tiempo**: Análisis temporal inteligente
+  - **Top errores**: Lista de errores más frecuentes
 - **Verificación de WP-CLI** y configuración del servidor
 
-### 🚀 Rendimiento y Estabilidad (Nuevo en v1.0)
+### 🚀 Rendimiento y Estabilidad
 - **Timeouts configurables** para prevenir bloqueos indefinidos
 - **Indicadores de progreso** en tiempo real durante operaciones
 - **Manejo robusto de errores** con múltiples niveles de fallback
 - **Conexiones SSH optimizadas** con reintentos automáticos
 
-### 🎨 Interfaz de Usuario
-- **Interfaz gráfica intuitiva** con pestañas organizadas
+### 🎨 Interfaz de Usuario (Mejorada en v1.1)
+- **Diseño moderno** con colores y estilos actualizados
+- **Selección múltiple** con checkboxes y contador dinámico
+- **Canvas con scroll** para mejor rendimiento con muchos plugins
+- **Ventana más grande** (1200x800) para mejor visualización
 - **Barra de progreso visual** para operaciones largas
 - **Mensajes de estado detallados** en tiempo real
 - **Configuración persistente** de conexiones y rutas
