@@ -1,20 +1,27 @@
 #!/usr/bin/env python3
 """
-WordPress Plugin Manager - Release 1.1
+WordPress Plugin Manager - Release 2.0
 Aplicación para gestionar plugins de WordPress de forma automatizada y segura via SSH
 
-Version: 1.1.0
+Version: 2.0.0
 Release Date: January 2025
 Status: Stable Release
 
-New Features in 1.1:
+New Features in 2.0:
+- Enhanced security with personal information cleanup
+- Improved repository structure and documentation
+- Optimized codebase with removed development files
+- Better configuration management
+- Streamlined installation process
+
+Features from 1.1:
 - Multi-selection of plugins with checkboxes
 - Improved modern UI with better colors and layout
 - Bulk operations for selected plugins
 - Enhanced user experience with visual indicators
 - Better organization of controls and information
 
-Previous Features:
+Core Features:
 - SSH connection management with timeouts
 - Automatic plugin scanning with WP-CLI and traditional fallback
 - Real-time progress indicators
@@ -171,7 +178,7 @@ class WordPressPluginManager:
     def setup_gui(self):
         """Configurar la interfaz gráfica con diseño mejorado (ENHANCED in 1.1)"""
         self.root = tk.Tk()
-        self.root.title(f"WordPress Plugin Manager v{__version__} - Release 1.1")
+        self.root.title(f"WordPress Plugin Manager v{__version__} - Release 2.0")
         self.root.geometry("1400x800")  # Aumentado el ancho para acomodar el panel de logs
         self.root.minsize(1200, 700)  # Tamaño mínimo ajustado
         self.root.configure(bg='#f8fafc')
@@ -575,7 +582,7 @@ class WordPressPluginManager:
                           font=('Segoe UI', 14, 'bold'), fill='white', anchor='w')
         
         # Subtítulo
-        self.header_canvas.create_text(50, 40, text="v1.1 - Gestión Avanzada de Plugins", 
+        self.header_canvas.create_text(50, 40, text="v2.0 - Gestión Avanzada de Plugins", 
                           font=('Segoe UI', 9), fill='#e0e7ff', anchor='w')
         
         # Icono decorativo en la esquina derecha
@@ -1460,7 +1467,7 @@ class WordPressPluginManager:
                                font=('Segoe UI', 16, 'bold'))
         title_label.grid(row=0, column=0, sticky="w")
         
-        version_label = ttk.Label(title_frame, text="Versión 1.1 - Selección Múltiple y UI Mejorada", 
+        version_label = ttk.Label(title_frame, text="Versión 2.0 - Gestión Avanzada y Segura", 
                                  font=('Segoe UI', 10), foreground='#666')
         version_label.grid(row=1, column=0, sticky="w", pady=(5, 0))
         
@@ -1623,7 +1630,7 @@ class WordPressPluginManager:
                                font=('Segoe UI', 18, 'bold'))
         title_label.pack(pady=(0, 10))
         
-        version_label = ttk.Label(main_frame, text="Versión 1.1.0", 
+        version_label = ttk.Label(main_frame, text="Versión 2.0.0", 
                                  font=('Segoe UI', 12), foreground='#666')
         version_label.pack()
         
@@ -1631,12 +1638,14 @@ class WordPressPluginManager:
         desc_text = """Una aplicación profesional para gestionar plugins de WordPress
 de forma segura a través de conexión SSH.
 
-Características principales:
+Características principales v2.0:
+• Seguridad mejorada y código limpio
 • Selección múltiple con checkboxes
-• Operaciones en lote
+• Operaciones en lote optimizadas
 • Testing automatizado con rollback
 • Interfaz moderna y intuitiva
-• Monitoreo de salud del sitio"""
+• Monitoreo de salud del sitio
+• Configuración simplificada"""
         
         desc_label = ttk.Label(main_frame, text=desc_text, 
                               font=('Segoe UI', 10), justify="center")
